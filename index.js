@@ -53,3 +53,7 @@ const ar3 = () => {
 return arr2[0];
 }
 console.log(ar3());
+
+const journey = (flightLength, destination, country="UK") => `We will leave from ${country}. The flight will take ${flightLength} hours and we will land in ${destination}.`
+
+console.log(journey(2, "Paris")); 
